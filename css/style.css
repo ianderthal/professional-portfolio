@@ -1,12 +1,10 @@
 
 /* structure  */
 body {
-	background-color: #323232;
-	color: #f4f4f4;
+	color: #575757;
 	font: 14px/1.5 Verdana, Arial, sans-serif;
 }
 .wrapper {
-	background-color: #141414;
 	margin: 0 auto;
 	max-width: 960px;
 	padding: 0 0 0 20px; /* is this math correct? */
@@ -20,10 +18,7 @@ nav.wrapper {
 }
  .about-me,
  .other-links,
- .unknown-project,
- .case-study, 
- .about-the-project,
- .contributions  {
+ .unknown-project {
  	margin: 40px 20px 0 0;
  }
 
@@ -34,8 +29,7 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-	color: white;
-	text-decoration: none;
+	color: #575757;
 }
 p {
 	margin: 0 0 1em 0;
@@ -59,6 +53,7 @@ h2 {
 }
 h3 {
 	font-size: 1.2em;
+	margin-bottom: 10px;
 }
 h4 {
 	font-size: 1.1em;
@@ -85,6 +80,15 @@ h5 {
 .cf {
     *zoom: 1;
 }
+strong {
+	font-weight: 700;
+}
+
+ul.bulleted {
+	list-style: disc outside none;
+	padding-left: 20px;
+}
+
 
 
 
@@ -115,8 +119,8 @@ h1.headline {
 
 /* navigation */
 nav.wrapper {
-	background-color: #323232;
 	border-bottom: 1px solid #5f5f5f;
+	border-top: 1px solid #5f5f5f;
 	line-height: 50px; /* value is the same as the height of nav */
 }
 .primary-nav li{
@@ -136,7 +140,7 @@ nav.wrapper {
 	padding: 40px 0 0 0;
 }
 .placeholder {
-	background-color: #333;
+	background-color: #bfbfbf;
 	height: 250px;
 	margin: 0 20px 20px 0;
 	position: relative;
@@ -157,15 +161,17 @@ nav.wrapper {
 
 .copyright {
 	padding: 10px 10px 10px 0;
-	border-top: 1px solid #333;
+	border-top: 1px solid #bfbfbf;
 	margin: 60px 20px 0 0;
+	font-size: .8em;
 }
-.social-media-links a{
+.social-media-links a {
 	background-color: #333;
 	display: block;
 	padding: 15px 0 10px 50px;
 	margin: 0 0 2px 0;
 	border-left: 5px solid transparent;
+	color: #575757;
 }
 .social-media-links a:hover {
 	border-left-color: #5ec65c;
@@ -179,11 +185,11 @@ nav.wrapper {
 	width: 100%;
 }
 .unknown-project li{
-	border-top: 1px solid white;
+	border-top: 1px solid black;
 	padding: 15px 0 15px 0;
 }
 .unknown-project li:last-child {
-	border-bottom: 1px solid white;	;
+	border-bottom: 1px solid black;
 }
 
 
@@ -194,32 +200,43 @@ nav.wrapper {
 	background-size: cover;
 }
 
+/* case study styles */
 
 .bold-image {
 	height: 450px;
-	border: 1px solid white;
+	border: 1px solid #bfbfbf;
 	margin-bottom: 20px;
 }
 .visit {
-	color: white;
-	border: 1px solid #fff;
+	border: 1px solid #bfbfbf;
 	display: block;
 	width: 150px;
 	margin: 30px auto;
-	padding: 15px;
-}
-.cs-title {
-	text-align: center;
-	font-size: 4.0em;
+	padding: 10px;
 }
 
 .blank-icon {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
-	background-color: white;
+	background-color: #bfbfbf;
 	margin: 10px auto;
 }
-.text-center {
+.standard-padding {
+	padding: 0 20px 40px 0;
+}
+.project-attribute h3{
 	text-align: center;
+}
+.case-study h1 {
+	text-align: center;
+	font-size: 4.0em;
+	line-height: 1.2em;
+}
+.case-study h2 {
+	font-size: 2.5em;
+	text-align: center;
+}
+.case-study-main-image {
+	margin-bottom: 40px;
 }
