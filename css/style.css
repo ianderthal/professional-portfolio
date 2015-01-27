@@ -1,0 +1,225 @@
+
+/* structure  */
+body {
+	background-color: #323232;
+	color: #f4f4f4;
+	font: 14px/1.5 Verdana, Arial, sans-serif;
+}
+.wrapper {
+	background-color: #141414;
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 0 0 0 20px; /* is this math correct? */
+}
+header {
+	padding-top: 50px; /* temporary */
+}
+nav.wrapper {
+	clear: left;
+	height: 50px;
+}
+ .about-me,
+ .other-links,
+ .unknown-project,
+ .case-study, 
+ .about-the-project,
+ .contributions  {
+ 	margin: 40px 20px 0 0;
+ }
+
+
+
+/* content */
+a:link, 
+a:visited,
+a:hover,
+a:active {
+	color: white;
+	text-decoration: none;
+}
+p {
+	margin: 0 0 1em 0;
+}
+.button {
+	border-radius: 5px;
+	cursor: pointer;			
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 3px 12px;
+	margin-bottom: 10px;
+}
+h1,h2,h3,h4, h5 {
+	font-family: 'Oswald', sans-serif;
+}
+h2 {
+	margin-bottom: 20px;
+	font-size: 1.5em;
+}
+h3 {
+	font-size: 1.2em;
+}
+h4 {
+	font-size: 1.1em;
+}
+h5 {
+	font-size: 1.0em;
+}
+
+/* clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+
+
+/* header */
+.portrait {
+	float: left;
+	margin-right: 30px; /* temporary  */ 
+}
+h2.title {
+	font-weight: 300;
+	text-transform: uppercase;
+	margin-bottom: -5px; /* temporary  */
+	letter-spacing: 1px; /* temporary  */
+	font-size: 1.0em;
+
+}
+h1.headline {
+	font-weight: 400;
+	font-size: 2.5em;
+}
+.contact {
+	background-color: #5ec65c;
+	color: white;
+}
+.identification {
+	padding: 0 0 25px 109px; /* width of image plus margin */
+}
+
+/* navigation */
+nav.wrapper {
+	background-color: #323232;
+	border-bottom: 1px solid #5f5f5f;
+	line-height: 50px; /* value is the same as the height of nav */
+}
+.primary-nav li{
+	display: inline-block;
+	margin: 0 40px 0 0;
+	height: 44px;
+	padding: 0 5px;
+	text-transform: uppercase;
+	font-size: 0.9em;
+}
+.primary-nav li.active {
+	border-bottom: 5px solid #5ec65c;
+}
+
+/* content */
+.content {
+	padding: 40px 0 0 0;
+}
+.placeholder {
+	background-color: #333;
+	height: 250px;
+	margin: 0 20px 20px 0;
+	position: relative;
+}
+.portfolio-description {
+	border-top: 1px solid #fff;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background-color: black;
+	opacity: 0.9;
+	min-height: 25%;
+}
+.portfolio-description span {
+	display: block;
+	padding: 10px;
+}
+
+.copyright {
+	padding: 10px 10px 10px 0;
+	border-top: 1px solid #333;
+	margin: 60px 20px 0 0;
+}
+.social-media-links a{
+	background-color: #333;
+	display: block;
+	padding: 15px 0 10px 50px;
+	margin: 0 0 2px 0;
+	border-left: 5px solid transparent;
+}
+.social-media-links a:hover {
+	border-left-color: #5ec65c;
+	transition-duration: .75s;
+}
+
+/* unknown project */
+.unknown-project ol {
+	list-style-type: decimal;
+	list-style-position: inside;
+	width: 100%;
+}
+.unknown-project li{
+	border-top: 1px solid white;
+	padding: 15px 0 15px 0;
+}
+.unknown-project li:last-child {
+	border-bottom: 1px solid white;	;
+}
+
+
+
+.tokidoki {
+	background-image: url('../images/sample.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.bold-image {
+	height: 450px;
+	border: 1px solid white;
+	margin-bottom: 20px;
+}
+.visit {
+	color: white;
+	border: 1px solid #fff;
+	display: block;
+	width: 150px;
+	margin: 30px auto;
+	padding: 15px;
+}
+.cs-title {
+	text-align: center;
+	font-size: 4.0em;
+}
+
+.blank-icon {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: white;
+	margin: 10px auto;
+}
+.text-center {
+	text-align: center;
+}
