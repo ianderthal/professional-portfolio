@@ -216,8 +216,10 @@ nav.wrapper {
 .case-study h2 {
 	background: url('../images/background-heading.png') 0 50% repeat-x;
 	font-size: 2.5em;
-	text-align: center;
+	letter-spacing: normal;
 	margin-right: 20px;
+	text-align: center;
+
 }
 .case-study h2 span {
 	background-color: white;
@@ -251,6 +253,22 @@ nav.wrapper {
 .template-icon {
 	background-position: 0px -210px;
 }
+.sketching-icon {
+	background-position: 0px -280px;
+}
+.primefaces-icon {
+	background-position: 0px -350px;
+}
+.jsf-icon {
+	background-position: 0px -560px;
+}
+.features-icon {
+	background-position: 0px -420px;
+}
+.maintenance-icon {
+		background-position: 0px -490px;
+}
+
 .case-study .button {
 	border: 1px solid #bfbfbf;
 	display: block;
@@ -263,6 +281,25 @@ nav.wrapper {
 }
 .case-study-center-image {
 	margin: 0 auto 10px;
+}
+
+blockquote {
+	background: #ededed;
+	border-left: 10px solid #5ec65c;
+	margin: 10px 10px 20px 0;
+	padding: 1em;
+}
+blockquote p {
+  	display: inline;
+	font: italic normal 1.3em Georgia,"Times New Roman",serif;
+}
+cite {
+	display: block;
+	margin-left: 20px;
+
+}
+cite:before {
+	content: "- ";
 }
 
 /* messaging styles */
