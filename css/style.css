@@ -215,13 +215,26 @@ nav.wrapper {
 	padding: 10px;
 }
 
-.blank-icon {
-	width: 100px;
-	height: 100px;
+.highlights-icon {
+	width: 64px;
+	height: 64px;
 	border-radius: 50%;
-	background-color: #bfbfbf;
+	background: url('../images/sprite-highlights-icons-grayscale.png') no-repeat;
 	margin: 10px auto;
 }
+.optimized-icon {
+	background-position: 0px 0px;
+}
+.validation-icon {
+	background-position: 0px -70px;
+}
+.tailored-icon {
+	background-position: 0px -140px;
+}
+.template-icon {
+	background-position: 0px -210px;
+}
+
 .standard-padding {
 	padding: 0 20px 40px 0;
 }
@@ -234,8 +247,21 @@ nav.wrapper {
 	line-height: 1.2em;
 }
 .case-study h2 {
+	background: url('../images/background-heading.png') 0 50% repeat-x;
 	font-size: 2.5em;
 	text-align: center;
+	margin-right: 20px;
+}
+.case-study h2 span {
+	background-color: white;
+	padding: 0 20px;
+}
+.case-study .subtitle {
+	color: #adacac;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 .case-study-main-image {
@@ -245,16 +271,44 @@ nav.wrapper {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
+/* messaging styles */
+
 .message {
-	border: 2px solid #fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
 	padding: 10px 10px 10px 50px;
+	position: relative;
+	margin-bottom: 40px;
+}
+.message-icon {
+	background: url('../images/sprite-messaging-icons.png') no-repeat;
+	display: inline-block;
+	height: 30px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 30px;
+}
+.message p {
+	margin-bottom: 0;
 }
 .message-warning {
+	background-color: #fff3a5;	
 	border-color: #edcf09;
-	background-color: #fff3a5;
 }
 .message-error {
 	background-color: #fef1ec;
 	border-color: #cd0a0a;
 	color: #cd0a0a;
 }
+.message-info {
+	background-color: #d4e9fc;	
+	border-color: #80b3e5;
+	color: #174c7f;
+}
+.message-info .message-icon {
+	background-position: 0px 0px;
+}
+
