@@ -158,7 +158,6 @@ nav.wrapper {
 	display: block;
 	padding: 10px;
 }
-
 .copyright {
 	padding: 10px 10px 10px 0;
 	border-top: 1px solid #bfbfbf;
@@ -200,27 +199,45 @@ nav.wrapper {
 	background-size: cover;
 }
 
+
+
+
+
+
 /* case study styles */
-
-.bold-image {
-	height: 450px;
-	border: 1px solid #bfbfbf;
-	margin-bottom: 20px;
+.standard-padding {
+	padding: 0 20px 40px 0;
 }
-.visit {
-	border: 1px solid #bfbfbf;
-	display: block;
-	width: 150px;
-	margin: 30px auto;
-	padding: 10px;
+.case-study h1 {
+	font-size: 4.0em;
+	line-height: 1.2em;
+	text-align: center;
 }
-
+.case-study h2 {
+	background: url('../images/background-heading.png') 0 50% repeat-x;
+	font-size: 2.5em;
+	text-align: center;
+	margin-right: 20px;
+}
+.case-study h2 span {
+	background-color: white;
+	padding: 0 20px;
+}
+.project-attribute h3{
+	text-align: center;
+}
+.case-study .subtitle {
+	color: #adacac;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	text-transform: uppercase;
+}
 .highlights-icon {
-	width: 64px;
-	height: 64px;
-	border-radius: 50%;
 	background: url('../images/sprite-highlights-icons-grayscale.png') no-repeat;
+	height: 64px;	
 	margin: 10px auto;
+	width: 64px;
 }
 .optimized-icon {
 	background-position: 0px 0px;
@@ -234,44 +251,19 @@ nav.wrapper {
 .template-icon {
 	background-position: 0px -210px;
 }
-
-.standard-padding {
-	padding: 0 20px 40px 0;
+.case-study .button {
+	border: 1px solid #bfbfbf;
+	display: block;
+	margin: 30px auto;
+	padding: 10px;
+	width: 150px;
 }
-.project-attribute h3{
-	text-align: center;
-}
-.case-study h1 {
-	text-align: center;
-	font-size: 4.0em;
-	line-height: 1.2em;
-}
-.case-study h2 {
-	background: url('../images/background-heading.png') 0 50% repeat-x;
-	font-size: 2.5em;
-	text-align: center;
-	margin-right: 20px;
-}
-.case-study h2 span {
-	background-color: white;
-	padding: 0 20px;
-}
-.case-study .subtitle {
-	color: #adacac;
-	font-family: 'Oswald', sans-serif;
-	font-size: 1.2em;
-	text-align: center;
-	text-transform: uppercase;
-}
-
 .case-study-main-image {
 	margin-bottom: 40px;
 }
 .case-study-center-image {
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto 10px;
 }
-
 
 /* messaging styles */
 
