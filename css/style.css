@@ -17,12 +17,11 @@ body {
 	padding: 0 0 0 1em;
 }
 header {
-	padding-top: 2em; /* temporary */
+	padding-top: 2em;
 	background: url('../images/swirl_pattern.png');
 }
  .about-me,
- .other-links,
- .unknown-project {
+ .other-links {
  	margin: 2.5em 1.25em 0 0;
  }
 
@@ -33,7 +32,6 @@ a:visited,
 a:hover,
 a:active {
 	color: #575757;
-	text-decoration: none;
 }
 p {
 	margin: 0 0 1em 0;
@@ -161,8 +159,9 @@ ul.primary-nav{
 }
 .case-study-thumbnail {
 	display: block;
-	border: 1px solid #bfbfbf;	
+	border: 1px solid #bfbfbf;
 	margin: 0 1em 1em 0;
+	text-decoration: none;
 }
 .placeholder {
 	background-color: #bfbfbf;
@@ -195,6 +194,7 @@ ul.primary-nav{
 	display: block;
 	padding: 0.625em 0 0.625em 3.125em;
 	margin: 0 0 0.125em 0;
+	text-decoration: none;
 }
 .social-media-links a:hover {
 	border-left: 5px solid #5ec65c;
@@ -246,9 +246,6 @@ ul.primary-nav{
 .work-sample-curian {
 	background: url('../images/work-sample-curian-2.jpg') no-repeat;
 }
-/* .work-sample-curian:hover {	
-	background: #333 url('../images/logo-curian.png') 50% 50% no-repeat;
-} */
 .work-sample-curian-rewrite {
 	background: url('../images/work-sample-curian-rewrite.jpg') no-repeat;
 }
@@ -258,7 +255,7 @@ ul.primary-nav{
 
 /* case study styles */
 .standard-padding {
-	padding: 0 0.8em 2.5em 0;
+	padding: 0 1.0em 2.5em 0;
 }
 .case-study-nav {
 	background-color: #333;
@@ -271,6 +268,7 @@ ul.primary-nav{
 }
 .case-study-nav a {
 	color: #fff;
+	margin-right: 1.25em;
 }
 .case-study h1 {
 	font-size: 4.0em;
