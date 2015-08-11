@@ -167,7 +167,7 @@ ul.primary-nav{
 .placeholder { /* TODO: requires review */
 	background-color: #bfbfbf;
 	height: 200px;
-	opacity: 0.5;
+	opacity: 0.7;
 	transition: opacity 0.25s ease ;
 }
 .placeholder:hover {
@@ -253,6 +253,9 @@ ul.primary-nav{
 }
 .work-sample-bootstrap {
 	background: url('../images/work-sample-bootstrap.jpg') no-repeat;
+}
+.work-sample-wolverine {
+	background: url('../images/work-sample-wolverine.jpg') no-repeat;
 }
 .toki-doki {
 	background: url('../images/sample.png') no-repeat;
